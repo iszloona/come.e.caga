@@ -1,0 +1,257 @@
+body{
+    background-color:black;
+    font-family:"Calibri",Times,serif;
+}
+
+/*****CONFIGURAÇÃODOCONTAINER****/
+
+#container{
+width: 90%;
+max-width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:black;
+
+}
+
+/*****FIMCONFIGURAÇÃODOCONTAINER****/
+
+/*****CONFIGURAÇÃODOTOPO****/
+
+#topo-site{
+    width: 100%;
+    height:194px;
+    float:left;
+    background: color #808080;;
+}
+
+/*****FIMDACONFIGURAÇÃODOTOPO****/
+
+/*****CONFIGURAÇÃODOLOGODOSITE****/
+
+#logo{
+    width:90%;
+    max-width: 300px;
+    height:77px;
+    float:left;
+    margin-left:40px;
+    margin-top:40px;
+}
+
+/*****FIMDACONFIGURAÇÃODOLOGODOSITE****/
+/*****CONFIGURAÇÃODAREDESOCIAIS****/
+
+#rede-sociais{
+   
+    width:90%;
+    max-width: 116px;
+    height:50px;
+    float:right;
+    margin-right:40px;
+    margin-top:70px;
+
+}
+
+/*****FIMDACONFIGURAÇÃODAREDESOCIAIS****/
+/*****CONFIGURAÇÃODOMENUDOSITE****/
+
+.menu_simple{
+    width: 100%;
+    max-width: 960px;
+    height:40px;
+    float:left;
+    margin-top:40px;
+    background-color:#808080;
+
+}
+
+.menu_simple ul{
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+.menu_simple ul li{
+    display: inline;
+}
+
+.menu_simple ul li a{
+    float:left;
+    text-decoration:none;
+    color:white;
+    padding:10.5px 11px;
+    margin-left:100px;
+    background-color:#808080;
+}
+
+.menu_simple ul li a:visited{
+    color:white;
+}
+
+.menu_simple ul li a:hover{
+    color:white;
+    background-color:white;
+}
+
+/*****FIMDACONFIGURAÇÃODOMENUDOSITE****/
+
+
+
+/****CONFIGURAÇÃODOSLIDEDOSITE****/
+
+#slide{
+  justify-content: center;
+    float:left;
+    border-radius: 55px;
+}
+
+/*****FIMDACONFIGURAÇÃODOSLIDEDOSITE****/
+
+/*****CONFIGURAÇÃODACAIXACONTEUDO****/
+.caixa-conteudo{
+    width: 100%;
+    max-width: 281px;
+    height: 190px;
+    float:left;
+    margin-left:17px;
+    padding-left:17px;
+    margin-top:20px;
+}
+
+.caixa-conteudo h3{
+    color:white;
+    margin-left:5.0rem;
+}
+
+.caixa-conteudo ul{
+    list-style:none;
+    float:left;
+    color:white;
+    margin-top:-1.0rem;
+    margin-left:1.0rem;
+
+}
+.caixa-conteudo ul li{
+    margin-top:1.0rem;
+}
+
+.caixa-conteudo li a{
+    text-decoration:none;
+    margin-right:1.0rem;
+    color:white;
+}
+
+/*****FIMCONFIGURAÇÃODACAIXACONTEUDO****/
+
+/*****CONFIGURAÇÃODORODAPEDOSITE****/
+
+#rodape-site{
+    width:100%;
+    max-width: 960px;
+    height:250px;
+    float:left;
+    background-color:#808080;
+    margin-top:5px;
+    }
+
+#autor-site{
+    width:100%;
+    max-width: 960px;
+    height:40px;
+    background-color:black;
+    float:left;
+    text-align:center;
+    padding-top:10px;
+    color:white;
+}/*****FIMCONFIGURAÇÃODORODAPEDOSITE****/
+/*****CONFIGURAÇÃODADIVSOBRE****/
+#sobre{
+    width:90%;
+    max-width: 960px;
+    height:400px;
+    background-color:white;
+    float:left;
+}
+#foto-sobre{
+    width:90%;
+    max-width: 400px;
+    height:350px;
+    float:left;
+    margin-left:60px;
+    margin-top:25px;
+}
+#texto-sobre{
+    width:90%;
+    max-width: 400px;
+    height:350px;
+    float:left;
+    margin-left:40px;
+    margin-top:25px;
+}/*****FIMCONFIGURAÇÃODOSOBRE****/
+
+@media  screen and ( max-width: 1024px) {
+     #topo-site{
+        width: 100%;
+        max-width: 900px;
+        margin: 0;
+     }
+
+     .menu_simple ul li a{
+        display: inline;
+
+     }
+
+     #rodape-site{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+     }
+}
+
+@media  screen and ( max-width: 768px) {
+    #topo-site{
+       width: 100%;
+       width: 960vw;
+       margin: 0;
+       margin-bottom: 45px;
+       align-items: center;
+    }
+#redes-sociais{
+    display: none;
+}
+   
+    }
+    #rodape-site{
+       display: flex;
+       width: 100%;
+       max-width: 960vw;
+       flex-direction: row;
+       align-items: center;
+       margin: 10px;
+    }
+
+   
+        
+        
+    
+    @media screen and (max-width: 685px)
+    {
+        #rodape-site{
+            justify-content: center;
+            align-items: flex-end;
+        }
+    }
+
+    @media  screen and ( max-width: 425px) {
+        #topo-site{
+           width: 100vh;
+           width: 940vw;
+           margin: 0;
+           margin-bottom: 45px;
+        }
+       
+    }
+
+ 
+            
